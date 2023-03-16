@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-nav {
+    height: 5vh;
+    border-top-left-radius: 10px;
+}
+
+.form-title {
+    height: 30vh;
+    margin-top: 15px;
+    padding-top: 5%;
+}
+
+.cards {
+    height: 50vh;
+}
+
+.card-img-top {
+    height: 12rem;
+}
+
+
+.modal-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-nav {
+    height: 11.5vh;
+    border-bottom-left-radius: 10px;
+}
+
+@media screen and (max-width:1199px) {
+    .footer {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+}
